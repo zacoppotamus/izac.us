@@ -1,7 +1,9 @@
 ---
-layout: post
+layout: movie
 category: movies
 title: High Fidelity
+poster: movies/hifidelity.jpg
+author: Zac Ioannidis
 tags:
 - High Fidelity
 - John Cusack

@@ -1,7 +1,9 @@
 ---
-layout: post
+layout: movie
 category: movies
 title: Rules of Attraction
+poster: movies/rulesofattraction.jpg
+author: Zac Ioannidis
 tags:
 - Rules Of Attraction
 - Bret Easton Ellis

@@ -1,7 +1,9 @@
 ---
-layout: post
+layout: movie
 category: movies
 title: A Beautiful Mind
+poster: movies/abeautifulmind.jpg
+author: Zac Ioannidis
 tags:
 - Russell Crowe
 - A Beautiful Mind

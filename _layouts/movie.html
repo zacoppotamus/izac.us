@@ -1,0 +1,15 @@
+---
+layout: default
+---
+<h2>{{ page.title }}</h2>
+<p class="meta">{{ page.date | date_to_string }} by {{ page.author }}</p>
+
+{% if page.poster %}
+<div class="movie-poster text-center">
+  <img src="{{ page.poster | asset_path }}" />
+</div>
+{% endif %}
+
+<div class="post">
+{{ content }}
+</div>

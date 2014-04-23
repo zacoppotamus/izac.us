@@ -1,7 +1,9 @@
 ---
-layout: post
+layout: movie
 category: movies
 title: To Rome With Love
+poster: movies/toromewithlove.jpg
+author: Zac Ioannidis
 tags:
 - Woody Allen
 - To Rome With Love

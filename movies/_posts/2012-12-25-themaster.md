@@ -1,7 +1,9 @@
 ---
-layout: post
+layout: movie
 category: movies
 title: The Master
+poster: movies/themaster.jpg
+author: Chris Poirazis
 tags:
 - The Master
 - Joaquin Phoenix

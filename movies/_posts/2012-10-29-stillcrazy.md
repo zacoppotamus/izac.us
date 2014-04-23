@@ -1,7 +1,9 @@
 ---
-layout: post
+layout: movie
 category: movies
 title: Still Crazy
+poster: movies/stillcrazy.jpg
+author: Zac Ioannidis
 tags:
 - Still Crazy
 - mockumentary
