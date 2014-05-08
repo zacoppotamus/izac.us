@@ -1,3 +1,5 @@
+$heading-font-family: "Helvetica Neue", Helvetica, Arial;
+
 a {
   text-decoration: none;
 }
@@ -19,4 +21,53 @@ a {
     line-height: 0.8em;
     margin-right: 0.15em;
     float: left;
+}
+
+// Movies =========================
+
+.movie-post {
+    margin-bottom: 30px;
+}
+
+.movie-post-title {
+    font-size: 1.5em;
+}
+
+
+// Longform =======================
+
+.longform-title {
+    font-family: $heading-font-family;
+    margin-top: 30px;
+    font-size: 2em;
+    font-weight: 200;
+    line-height: 95%;
+}
+
+.longform-subtitle {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-family: $heading-font-family;
+    font-size: 1.5em;
+    font-weight: 100;
+    line-height: 95%;
+}
+
+.longform-meta {
+    margin-bottom: 30px;
+    font-family: $heading-font-family;
+    font-weight: 200;
+    color: #aaa;
+}
+
+.longform-post {
+    margin-bottom: 200px;
+}
+
+.longform-post > h4 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 1.3em;
+    border-bottom: 1px solid #222;
+    font-weight: 200;
 }
