@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<h2>{{ page.title }}</h2>
+<p class="meta">{{ page.date | date_to_string }}
+
+<div class="visual-post-content">
+    {% if page.image %}
+    <img src="{{ page.image | asset_path }}" />
+    {% elsif page.thumbnail %}
+    <img src="{{ page.thumbnail | asset_path }}" />
+    {% endif %}
+
+    <p>{{ content }}</p>
+</div>

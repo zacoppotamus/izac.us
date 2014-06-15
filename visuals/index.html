@@ -1,0 +1,22 @@
+---
+layout: default
+title: Visuals
+---
+
+<div class="col-sm-12">
+  <h1>Visuals</h1>
+</div>
+{% for post in site.categories.visuals %}
+  <div class="visuals-post col-sm-4">
+    {% if post.thumbnail %}
+    <a href="{{ post.url }}">
+      <span class="visuals-post-thumbnail">
+        <img src="{{ post.thumbnail | asset_path }}" />
+      </span>
+    </a>
+    {% endif %}
+    <div class="visuals-post-title">
+      <p>{{ post.title }}</p>
+    </div>
+  </div>
+{% endfor %}
