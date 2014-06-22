@@ -7,9 +7,9 @@ layout: default
 
 <div class="visual-post-content">
     {% if page.image %}
-    <img src="{{ page.image | asset_path }}" />
+    <a href="{{ page.image | asset_path }}"><img src="{{ page.image | asset_path }}" /></a>
     {% elsif page.thumbnail %}
-    <img src="{{ page.thumbnail | asset_path }}" />
+    <a href="{{ page.thumbnail | asset_path }}"><img src="{{ page.thumbnail | asset_path }}" /></a>
     {% endif %}
 
     <p>{{ content }}</p>
