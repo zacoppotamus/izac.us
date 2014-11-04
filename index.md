@@ -6,9 +6,10 @@ title: Zac Ioannidis
 Welcome
 ===
 
-Hey, I'm Zac, currently 20, located in New York. I've always been interested in things that blended technical and creative aspects. For this reason, things that excite me and that I enjoy working on include big data, creative coding, and data visualization. I'm an avid movie and photography fan. I listen to, play and write about music. In my spare time I study Computer Science at the University of Bristol.
+Hey, I'm Zac, currently 21, located in New York. I'm a CS major, in my third year, studying at the University of Texas at Austin. I'm passionate about data and interactive storytelling. In that context, I love looking beyond the surface for meanings and making use of progressive technologies as a means of communicating it to a widespread audience in the most efficient manner. Furthermore, creative applications that reside in the intersection of technology and art fascinate me.
+In my spare time, I enjoy programming generative artworks and exploring alternative methods of interfacing users' actions with software. Feel free to <a href="mailto:me@izac.us">contact me</a> or take a look at my <a href="resume.pdf">résumé</a>.
 
 
 <div class="front-profile">
-    <img src="{% asset_path front/psycho.jpg %}">
+    <img src="{% asset_path front/subway.jpg %}">
 </div>
